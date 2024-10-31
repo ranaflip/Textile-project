@@ -1,5 +1,5 @@
 from django.http import JsonResponse
-from .scraping.scraper import scrape_data
+from .scraping.scraper1 import scrape_data
 from django.http import HttpResponse
 
 def textile_data(request):
